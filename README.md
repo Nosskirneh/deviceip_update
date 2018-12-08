@@ -1,5 +1,5 @@
 # deviceip_update
-Update THEOS_DEVICE_IP and PORT easily on macOS
+Update `THEOS_DEVICE_IP` and `_PORT` easily on macOS.
 
 Configure `config.json`.
 
