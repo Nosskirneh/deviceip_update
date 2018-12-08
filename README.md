@@ -1,6 +1,11 @@
 # deviceip_update
 Update `THEOS_DEVICE_IP` and `_PORT` easily on macOS.
 
+## Installation
+Install Python 3 and pip.
+
+`sudo -H pip3 install nmap pyobjc`
+
 Configure `config.json`.
 
 Add this to your `~/.zshrc` or bash profile:
@@ -11,5 +16,5 @@ deviceip_update() {
 }
 ```
 
-Example usage:
+## Example usage
 `deviceip_update A-iP6` and it will automatically set the correct IP and port depending on what network you're on.
