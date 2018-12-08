@@ -37,6 +37,7 @@ def get_ssid():
 
     return ssid
 
+
 def update_with_device(device):
     print("Picked device: " + device['name'] + ", IP: " + device['IP'] + ", port:", device['port'])
 
@@ -55,14 +56,14 @@ def update_with_network(network):
     default_device = None
     for device in network['devices']:
         if (device_name != None and device_name == device['name']):
-            return update_with_device(device);
+            return update_with_device(device)
 
         if (device['name'] == network['default']):
             if (device_name == None):
-                return update_with_device(device);
+                return update_with_device(device)
             default_device = device
 
-    update_with_device(default_device);
+    update_with_device(default_device)
 
 
 def scan_networks():
