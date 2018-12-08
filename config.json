@@ -1,0 +1,76 @@
+{
+    "default": "localhost",
+    "networks": [{
+        "IP": "192.168.0.*",
+        "name": "AHML*",
+        "actions": [{
+            "dropbox": true
+        }],
+        "default": "M-iP6",
+        "devices": [{
+            "name": "A-iP6",
+            "IP": "192.168.0.96",
+            "port": 22
+        }, {
+            "name": "A-iP6S",
+            "IP": "192.168.0.95",
+            "port": 22
+        }, {
+            "name": "A-iPad",
+            "IP": "192.168.0.94",
+            "port": 22
+        }, {
+            "name": "M-iP6",
+            "IP": "192.168.0.170",
+            "port": 22
+        }, {
+            "name": "A-iP4",
+            "IP": "192.168.0.146",
+            "port": 22
+        }, {
+            "name": "C-iP4S",
+            "IP": "192.168.0.186",
+            "port": 22
+        }, {
+            "name": "F-iP5C",
+            "IP": "192.168.0.172",
+            "port": 22
+        }]
+    }, {
+        "IP": "172.20.10.*",
+        "name": "A-iP7",
+        "actions": [{
+            "dropbox": false
+        }],
+        "default": "M-iP6",
+        "devices": [{
+            "name": "A-iP6",
+            "IP": "172.20.10.5",
+            "port": 22
+        }, {
+            "name": "A-iP6S",
+            "IP": "172.20.10.3",
+            "port": 22
+        }, {
+            "name": "M-iP6",
+            "IP": "172.20.10.4",
+            "port": 22
+        }]
+    }, {
+        "name": "localhost",
+        "default": "M-iP6",
+        "devices": [{
+            "name": "A-iP6",
+            "IP": "localhost",
+            "port": 2200
+        }, {
+            "name": "A-iP6S",
+            "IP": "localhost",
+            "port": 2201
+        }, {
+            "name": "M-iP6",
+            "IP": "localhost",
+            "port": 2202
+        }]
+    }]
+}
