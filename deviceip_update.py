@@ -26,6 +26,10 @@ def get_ssid():
                     bundle_path='/System/Library/Frameworks/CoreWLAN.framework',
                     module_globals=globals())
 
+    interfaceNames = CWInterface.interfaceNames()
+    if interfaceNames == None:
+        return None
+
     ssid = None
     for iname in CWInterface.interfaceNames():
         interface = CWInterface.interfaceWithName_(iname)
