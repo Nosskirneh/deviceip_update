@@ -17,4 +17,5 @@ deviceip_update() {
 ```
 
 ## Example usage
-`deviceip_update A-iP6` and it will automatically set the correct IP and port depending on what network you're on.
+`deviceip_update` and it will set the correct IP and port of the default device depending on the current network.
+`deviceip_update A-iP6` will set the correct IP and port of the specified device depending on the current network.
