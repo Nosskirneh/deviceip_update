@@ -3,7 +3,7 @@ Update `THEOS_DEVICE_IP` and `_PORT` easily on macOS.
 
 Configure `config.json`.
 
-Add this to your ~/.zshrc or bash profile:
+Add this to your `~/.zshrc` or bash profile:
 ```
 deviceip_update() {
     ~/Dropbox/bin/deviceip_update/deviceip_update.py $@
