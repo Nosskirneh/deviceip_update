@@ -8,6 +8,10 @@
         }],
         "default": "M-iP6",
         "devices": [{
+            "name": "A-iP7",
+            "IP": "192.168.0.71",
+            "port": 22
+        }, {
             "name": "A-iP6",
             "IP": "192.168.0.96",
             "port": 22
@@ -44,6 +48,10 @@
         }],
         "default": "M-iP6",
         "devices": [{
+            "name": "A-iP7",
+            "IP": "172.20.10.1",
+            "port": 22
+        }, {
             "name": "A-iP6",
             "IP": "172.20.10.5",
             "port": 22
@@ -71,6 +79,10 @@
             "name": "M-iP6",
             "IP": "localhost",
             "port": 2202
+        }, {
+            "name": "A-iP7",
+            "IP": "localhost",
+            "port": 2203
         }]
     }]
 }
