@@ -73,6 +73,8 @@ def update_with_network(network):
                 return update_with_device(device)
             default_device = device
 
+    if device_name != None:
+        print("Could not find preset for device {}".format(device_name))
     update_with_device(default_device)
 
 

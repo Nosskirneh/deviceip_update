@@ -6,7 +6,7 @@
         "actions": [{
             "dropbox": true
         }],
-        "default": "M-iP6",
+        "default": "A-iP6",
         "devices": [{
             "name": "A-iP7",
             "IP": "192.168.0.71",
@@ -39,6 +39,18 @@
             "name": "F-iP5C",
             "IP": "192.168.0.172",
             "port": 22
+        }, {
+            "name": "CH-Play",
+            "IP": "192.168.0.84",
+            "port": 22
+        }, {
+            "name": "A-iP5S-1",
+            "IP": "192.168.0.218",
+            "port": 22
+        }, {
+            "name": "A-iP5S-2",
+            "IP": "192.168.0.185",
+            "port": 22
         }]
     }, {
         "IP": "172.20.10.*",
@@ -46,14 +58,14 @@
         "actions": [{
             "dropbox": false
         }],
-        "default": "M-iP6",
+        "default": "A-iP6",
         "devices": [{
             "name": "A-iP7",
             "IP": "172.20.10.1",
             "port": 22
         }, {
             "name": "A-iP6",
-            "IP": "172.20.10.5",
+            "IP": "172.20.10.4",
             "port": 22
         }, {
             "name": "A-iP6S",
@@ -63,10 +75,14 @@
             "name": "M-iP6",
             "IP": "172.20.10.4",
             "port": 22
+        }, {
+            "name": "CH-Play",
+            "IP": "172.20.10.10",
+            "port": 22
         }]
     }, {
         "name": "localhost",
-        "default": "M-iP6",
+        "default": "A-iP6",
         "devices": [{
             "name": "A-iP6",
             "IP": "localhost",
